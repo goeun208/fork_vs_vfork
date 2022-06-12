@@ -34,6 +34,7 @@ int main(int argc, char **argv)
 
 	data = (unsigned long*)malloc(data_size);
 	if (!data) {
+		
 		printf("memory allocation fail\n");
 	} else {
 		printf("memory allocation success\n");
